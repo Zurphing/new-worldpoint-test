@@ -17,7 +17,7 @@ After that are entries for land.list. </br>
 Each entry in land.list is 0x4 bytes long. </br>
 0x1 is the "ID" of the warp point </br>
 0x2 is the World ID of the warp point </br>
-0x3 is the # of warp point it is (not related to Room ID. If this is the fifth entry for a warp point, pointing to HB26, then it is 0x5). </br>
+0x3 is the # of warp point it is (This is unrelated to Room ID. If this is the fifth entry for a warp point, pointing to HB26, then its value is equal to 5, for example.). </br>
 0x4 is which IMGD to use. Usually -1 from the warp points ID. </br>
 
 IMGD's are loaded in sequential order. </br>
