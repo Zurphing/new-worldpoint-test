@@ -44,3 +44,6 @@ Then, under SpawnArgument, change it from whatever it is to 99. This is an argum
 Then repoint the changed m_00.yml file, and import it into your .ard file (or alternatively, patch in the YML via OpenKH). </br>
 
 Once you have your files ready, put them in the appropriate places (70landing.bar & 00worldpoint.bin in the root directory of mod/kh2, and the .ard file in ard/region)
+
+
+Currently, unsure how to make entries past 35 appear in the "Select a Room" menu. May be related to possible Story Flags?
