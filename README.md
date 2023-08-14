@@ -31,6 +31,12 @@ Example: You can notice that every warp point in Hollow Bastion is all grouped t
 0x3 is set to 0x63, to indicate this is a Save Point. </br>
 0x4 purpose unknown, set to 0x00 </br>
 
+Note that you CAN force a warp to an entirely different world, just change the World ID & Room Number, and ensure that warp is near the other warps for a world.
+I.E, if you have 5 Hollow Bastion Warps set up, and you want your 5th Warp to lead to Destiny Islands, set World ID to 03 and Room Number to whichever room # you want.
+Ensure these 5 are all grouped together, and you can warp in.
+Please note however, that the String it will show for the room you're warping into will match the room number of the world you're warping into.
+I.E, we warp into World 3 (Destiny Islands) to Room 1 (Main Island).
+On the Land Selection screen, when we hover over that warp, it will instead show Room 1's text to be "Dark Depths", which is what Room 01 is in Hollow Bastion.
 
 
 ARD FILE:
